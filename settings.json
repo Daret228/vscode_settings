@@ -1,0 +1,262 @@
+{
+    // Цветовая тема
+    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+
+    // Скрыть верхнюю activity bar
+    "workbench.activityBar.location": "hidden",
+
+    // Показывать только одну вкладку редактора
+    "workbench.editor.showTabs": "single",
+
+    // Скрыть нижнюю статусную строку
+    "workbench.statusBar.visible": false,
+
+    // Не открывать welcome-панель при запуске
+    "workbench.startupEditor": "none",
+
+    // Отключить советы
+    "workbench.tips.enabled": false,
+
+    // Отключение верхней панели(File, Edit ...)
+    "window.menuBarVisibility": "toggle",
+
+    // Отключить мини-карту справа от редактора
+    "editor.minimap.enabled": false,
+
+    // Отключить "хлебные крошки" (breadcrumbs)
+    "breadcrumbs.enabled": false,
+
+    // Переместить боковую панель вправо
+    "workbench.sideBar.location": "right",
+
+    // Иконки файлов — Material Theme
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Убрать стрелочки раскрытия в файловом обозревателе
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    // Отключить "прилипающий" заголовок дерева
+    "workbench.tree.enableStickyScroll": false,
+
+    // Не рисовать направляющие в дереве
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Отступ дерева
+    "workbench.tree.indent": 16,
+
+    // Отключить сжатие вложенных папок
+    "explorer.compactFolders": false,
+
+    // Не запрашивать подтверждение при drag-and-drop
+    "explorer.confirmDragAndDrop": false,
+
+    // Не спрашивать подтверждение удаления
+    "explorer.confirmDelete": false,
+
+    // Скрыть бейджи файлов (например, git)
+    "explorer.decorations.badges": false,
+
+    // Отключить визуальное отображение изменений в git
+    "git.decorations.enabled": false,
+
+    // Увеличить масштаб окна
+    "window.zoomLevel": 1.5,
+
+    // Отключить кастомный title bar (на macOS / Linux / Windows)
+    "window.customTitleBarVisibility": "never",
+
+    // Использовать нативную title bar
+    "window.titleBarStyle": "native",
+
+    // Пользовательский стиль окна (если используется custom-ui-style расширение)
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
+    },
+
+    // Стили для интерфейса (через расширение custom-ui-style)
+    "custom-ui-style.stylesheet": {
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+        ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    },
+
+    // Пользовательский шрифт интерфейса
+    "custom-ui-style.font.sansSerif": "Dank Mono",
+
+    // Модификатор для мульти-курсов
+    "editor.multiCursorModifier": "ctrlCmd",
+
+    // Тип мигания курсора
+    "editor.cursorBlinking": "solid",
+
+    // Стиль курсора — блок
+    "editor.cursorStyle": "block",
+
+    // Цветовые настройки (в том числе кастомизация курсора)
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+
+        // Тема: кастомизация выбранного предложения и sidebar
+        "[Aura Dracula Spirit (Soft)]": {
+            "editorSuggestWidget.selectedBackground": "#3A334B",
+            "sideBar.background": "#191521"
+        }
+    },
+
+    // Основной шрифт редактора
+    "editor.fontFamily": "Dank Mono",
+
+    // Размер шрифта
+    "editor.fontSize": 14,
+
+    // Включить лигатуры
+    "editor.fontLigatures": true,
+
+    // Высота строки
+    "editor.lineHeight": 2.5,
+
+    // Кастомизация токенов синтаксиса
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
+    // Отключить sticky scroll
+    "editor.stickyScroll.enabled": false,
+
+    // Отключить подсветку цветов
+    "editor.colorDecorators": false,
+
+    // Отключить CodeLens (инлайн подсказки)
+    "editor.codeLens": false,
+
+    // Отключить ссылки в коде
+    "editor.links": false,
+
+    // Отключить подсветку скобок
+    "editor.matchBrackets": "never",
+
+    // Отключить подсказки параметров функций
+    "editor.parameterHints.enabled": false,
+
+    // Отключить лампочку подсказки
+    "editor.lightbulb.enabled": "off",
+
+    // Отключить всплывающие хинты
+    "editor.hover.enabled": false,
+
+    // Удалять пробелы в конце строк при сохранении
+    "files.trimTrailingWhitespace": true,
+
+    // Вставлять новую строку в конце файла при сохранении
+    "files.insertFinalNewline": true,
+
+    // Отключить визуальные отличия изменений в git
+    "scm.diffDecorations": "none",
+
+    // Относительная нумерация строк
+    "editor.lineNumbers": "relative",
+
+    // Размер табуляции в пробелах
+    "editor.tabSize": 4,
+
+    // Не определять автоматически размер отступов
+    "editor.detectIndentation": false,
+
+    // Скрыть кнопки сворачивания блоков
+    "editor.showFoldingControls": "never",
+
+    // Отключить направляющие отступов
+    "editor.guides.indentation": false,
+
+    // Не отображать пробелы и табуляцию
+    "editor.renderWhitespace": "none",
+
+    // Не подсвечивать текущую строку
+    "editor.renderLineHighlight": "none",
+
+    // Отключить подсветку повторений слов
+    "editor.occurrencesHighlight": "off",
+
+    // Отключить подсветку выделения
+    "editor.selectionHighlight": false,
+
+    // Скрыть горизонтальную прокрутку
+    "editor.scrollbar.horizontal": "hidden",
+
+    // Скрыть вертикальную прокрутку
+    "editor.scrollbar.vertical": "hidden",
+
+    // Убрать границу overview ruler
+    "editor.overviewRulerBorder": false,
+
+    // Скрыть курсор в overview ruler
+    "editor.hideCursorInOverviewRuler": true,
+
+    // Отключить автоподсказки
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+
+    // Не показывать автоподсказки при наборе символов
+    "editor.suggestOnTriggerCharacters": false,
+
+    // Включить таб-комплиты
+    "editor.tabCompletion": "on",
+
+    // Сниппеты — наверху списка автодополнений
+    "editor.snippetSuggestions": "top",
+
+    // Включить emmet при нажатии TAB
+    "emmet.triggerExpansionOnTab": true,
+
+    // Автосохранение через короткую задержку
+    "files.autoSave": "afterDelay",
+
+    // Не проверять обновления
+    "update.mode": "none",
+
+    // Не рекомендовать расширения
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "open"
+}
