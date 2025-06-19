@@ -1,0 +1,483 @@
+[
+  {
+    "key": "ctrl+o ctrl+p",
+    "command": "workbench.action.showCommands",
+    "comment": "Открыть палитру команд (аналог cmd+o cmd+p на Mac)"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "workbench.view.extensions",
+    "comment": "Открыть панель расширений"
+  },
+  {
+    "key": "alt+ctrl+,",
+    "command": "workbench.action.openSettings",
+    "comment": "Открыть настройки"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "workbench.action.zoomReset",
+    "comment": "Сбросить масштаб"
+  },
+  {
+    "key": "escape",
+    "command": "notifications.hideToasts",
+    "when": "notificationToastsVisible",
+    "comment": "Скрыть уведомления"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.gotoLine",
+    "comment": "Перейти к строке"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.gotoSymbol",
+    "comment": "Перейти к символу"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.showAllSymbols",
+    "comment": "Показать все символы"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.openEditorAtIndex1",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 1"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.openEditorAtIndex2",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 2"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.openEditorAtIndex3",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 3"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.openEditorAtIndex4",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 4"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.action.openEditorAtIndex5",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 5"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.action.openEditorAtIndex6",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 6"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "workbench.action.openEditorAtIndex7",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 7"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "workbench.action.openEditorAtIndex8",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 8"
+  },
+  {
+    "key": "ctrl+9",
+    "command": "workbench.action.openEditorAtIndex9",
+    "when": "!terminalFocus",
+    "comment": "Открыть редактор 9"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorTextFocus || terminalFocus",
+    "comment": "Фокус на боковую панель"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.view.search.focus",
+    "when": "activeViewlet == 'workbench.view.search' && !inputFocus",
+    "comment": "Фокус на поиск (замена cmd+h, чтобы избежать конфликта)"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "editorIsOpen && !editorTextFocus && !view.terminal.visible",
+    "comment": "Фокус на активную группу редакторов"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "search.focus.nextInputBox",
+    "when": "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible",
+    "comment": "Фокус на следующее поле ввода поиска"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "search.focus.previousInputBox",
+    "when": "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible && !searchInputBoxFocus",
+    "comment": "Фокус на предыдущее поле ввода поиска"
+  },
+  {
+    "key": "alt+ctrl+;",
+    "command": "search.action.collapseSearchResults",
+    "comment": "Свернуть результаты поиска"
+  },
+  {
+    "key": "alt+ctrl+'",
+    "command": "search.action.expandSearchResults",
+    "comment": "Развернуть результаты поиска"
+  },
+  {
+    "key": "alt+ctrl+0",
+    "command": "search.action.focusSearchList",
+    "comment": "Фокус на список поиска"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.showContextMenu",
+    "when": "editorTextFocus",
+    "comment": "Показать контекстное меню"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly",
+    "comment": "Копировать строку вниз"
+  },
+  {
+    "key": "alt+ctrl+k",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor",
+    "comment": "Форматировать документ"
+  },
+  {
+    "key": "ctrl+m ctrl+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "editorTextFocus",
+    "comment": "Обёртывание с помощью Emmet"
+  },
+  {
+    "key": "ctrl+m ctrl+r",
+    "command": "editor.emmet.action.updateTag",
+    "when": "editorTextFocus",
+    "comment": "Обновить тег Emmet"
+  },
+  {
+    "key": "ctrl+m ctrl+backspace",
+    "command": "editor.emmet.action.removeTag",
+    "when": "editorTextFocus",
+    "comment": "Удалить тег Emmet"
+  },
+  {
+    "key": "ctrl+m ctrl+m",
+    "command": "editor.emmet.action.matchTag",
+    "when": "editorTextFocus",
+    "comment": "Найти соответствующий тег Emmet"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "editor.fold",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Свернуть текущий блок"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.unfold",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Развернуть текущий блок"
+  },
+  {
+    "key": "alt+ctrl+[",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Свернуть все блоки"
+  },
+  {
+    "key": "alt+ctrl+]",
+    "command": "editor.unfoldAll",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Развернуть все блоки"
+  },
+  {
+    "key": "ctrl+alt+shift+[",
+    "command": "editor.foldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Рекурсивное сворачивание"
+  },
+  {
+    "key": "ctrl+alt+shift+]",
+    "command": "editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled",
+    "comment": "Рекурсивное разворачивание"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "comment": "Свернуть папки в проводнике"
+  },
+  {
+    "key": "alt+\\",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "comment": "Показать активный файл в проводнике"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus",
+    "comment": "Создать новый файл"
+  },
+  {
+    "key": "shift+ctrl+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus",
+    "comment": "Создать новую папку"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled",
+    "comment": "Открыть проводник"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "comment": "Переключить максимизацию панели"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus",
+    "comment": "Переключить терминал"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus",
+    "comment": "Создать новый терминал"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus",
+    "comment": "Закрыть терминал"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus",
+    "comment": "Фокус на следующий терминал"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus",
+    "comment": "Фокус на предыдущий терминал"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus",
+    "comment": "Очистить терминал"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus",
+    "comment": "Разделить терминал"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.terminal.focus",
+    "when": "view.terminal.visible && !terminalFocus",
+    "comment": "Фокус на терминал"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus",
+    "comment": "Фокус на следующую панель терминала"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 1"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 2"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.terminal.focusAtIndex3",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 3"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.terminal.focusAtIndex4",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 4"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.action.terminal.focusAtIndex5",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 5"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.action.terminal.focusAtIndex6",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 6"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "workbench.action.terminal.focusAtIndex7",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 7"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "workbench.action.terminal.focusAtIndex8",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 8"
+  },
+  {
+    "key": "ctrl+9",
+    "command": "workbench.action.terminal.focusAtIndex9",
+    "when": "terminalFocus",
+    "comment": "Фокус на терминал 9"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.nextEditor",
+    "when": "!terminalFocus && !listFocus && !suggestWidgetVisible && !inQuickOpen && !inputBoxFocus",
+    "comment": "Переключиться на следующий редактор"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.previousEditor",
+    "when": "!terminalFocus && !listFocus && !suggestWidgetVisible && !inQuickOpen && !inputBoxFocus",
+    "comment": "Переключиться на предыдущий редактор"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickSwitchWindow",
+    "comment": "Быстро переключиться между окнами"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen",
+    "comment": "Выбрать следующий элемент в быстром открытии"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen",
+    "comment": "Выбрать предыдущий элемент в быстром открытии"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus",
+    "comment": "Выбрать следующий вариант автодополнения"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus",
+    "comment": "Выбрать предыдущий вариант автодополнения"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward",
+    "comment": "Навигация вперёд"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack",
+    "comment": "Навигация назад"
+  },
+  {
+    "key": "k",
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus",
+    "comment": "Фокус вниз в списке"
+  },
+  {
+    "key": "l",
+    "command": "list.focusUp",
+    "when": "listFocus && !inputFocus",
+    "comment": "Фокус вверх в списке"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.splitEditor",
+    "when": "!terminalFocus",
+    "comment": "Разделить редактор"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.splitEditorDown",
+    "comment": "Разделить редактор вниз"
+  },
+  {
+    "key": "shift+ctrl+w",
+    "command": "workbench.action.closeAllEditors",
+    "comment": "Закрыть все редакторы"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.closeGroup",
+    "comment": "Закрыть группу редакторов"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "workbench.action.increaseViewSize",
+    "when": "editorFocus",
+    "comment": "Увеличить размер окна"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "editorFocus",
+    "comment": "Уменьшить размер окна"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateUp",
+    "when": "editorFocus",
+    "comment": "Навигация вверх"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.navigateRight",
+    "when": "editorFocus",
+    "comment": "Навигация вправо"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateDown",
+    "when": "editorFocus",
+    "comment": "Навигация вниз"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateLeft",
+    "when": "editorFocus",
+    "comment": "Навигация влево"
+  }
+]
