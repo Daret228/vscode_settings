@@ -40,7 +40,9 @@ Custom CSS and JS Loader (или Custom UI Style)
 ## 📁 Структура
 
 .
+
 ├── settings.json # Основной файл конфигурации
+
 └── README.md # Описание репозитория
 
 
